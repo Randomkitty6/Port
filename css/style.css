@@ -1,0 +1,220 @@
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #40B4CC;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+body {
+  margin: 0;
+  background-color: #E2E7EE;
+}
+
+nav {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+}
+nav .navigasi {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav .navigasi a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+header .bg_back {
+  background-image: url("");
+  font-family: Clarendon;
+  background-position: center;
+  background-size: 210vh;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 720;
+  z-index: -1;
+}
+header .bg_back .bg_front {
+  background-color: black;
+  height: 100vh;
+  opacity: 50%;
+}
+header .text_header {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+header .headline {
+  font-family: ginger;
+  text-align: center;
+  color: white;
+}
+header .headline .title_header {
+  font-size: 8vh;
+}
+header .headline .desc_header {
+  font-size: 6vh;
+  margin-top: -80;
+}
+
+section .section1 {
+  display: flex;
+}
+section .section1 > div {
+  padding: 0 0px;
+}
+section .section1 .white {
+  width: 50%;
+}
+section .section1 .white .intro_header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50pt;
+  padding: 0px 40px;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-left: 60px;
+}
+section .section1 .white .lineee {
+  background-color: #252887;
+  height: 10px;
+  width: 66vh;
+  margin-top: -50pt;
+  margin-left: 95px;
+  margin-bottom: 30px;
+}
+section .section1 .white .intro_desc {
+  line-height: 1.5;
+  font-size: 15pt;
+  padding: 0px 102px 50px;
+}
+section .section1 .green {
+  display: flex;
+  height: 70vh;
+  position: center;
+  padding-top: 120px;
+  padding-left: 150px;
+}
+section .section1 .pink {
+  display: flex;
+  height: 95vh;
+}
+section .section2 {
+  display: flex;
+  margin-top: 55px;
+}
+section .section2 .section2_text {
+  width: 50%;
+}
+section .section2 .section2_text .text_box h1 {
+  text-align: center;
+  font-size: 50pt;
+  padding: 0px 40px;
+  font-weight: bold;
+  line-height: 1.3;
+  padding: 0px 98px 0px;
+}
+section .section2 .section2_text .text_box p {
+  line-height: 1.5;
+  font-size: 15pt;
+  padding: 0px 98px 51px;
+}
+section .section2 .section2_text .text_box a {
+  padding: 20px 50px;
+  font-size: 1em;
+  border: 1px solid;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  margin: 0 100px;
+  border-radius: 30px;
+}
+section .section2 .section2_text .bg_img2 img {
+  position: absolute;
+  margin: -480px 0 0 0;
+  z-index: -11;
+  height: 110vh;
+  width: 50%;
+}
+section .section2 .section2_img .koko img {
+  width: 105vh;
+}
+section .section3 .title_header {
+  text-align: center;
+  padding-top: 50;
+  font-size: 5vh;
+  font-family: arial;
+}
+section .section3 .row1 {
+  display: flex;
+}
+section .section3 .row1 .column {
+  width: 33.33%;
+  padding: 5px;
+}
+section .section3 .row2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .section3 .row2 .column {
+  width: 50%;
+  padding: 5px;
+  position: center;
+}
+section .section4 {
+  width: 100%;
+  height: 94vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  display: flex;
+  position: center;
+}
+section .section4 h1 {
+  font-family: Clarendon Lt BT;
+}
+section .section4 .contacts {
+  align-content: center;
+  justify-content: center;
+  width: 405.5px;
+  height: 366px;
+  background-color: #40B4CC;
+  border-radius: 0px 0px 50px 50px;
+}
+section .section4 a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: none;
+}
+section .section4 img {
+  height: 70vh;
+  margin-top: 100px;
+  margin-bottom: 95px;
+}
+section .section4 h1 {
+  font-size: 30pt;
+}
+
+/*# sourceMappingURL=style.css.map */
